@@ -1,14 +1,13 @@
 # 🛒 Sistema de Gestión de Ventas
 
-**Proyecto Integrador - SoyHenry**  
-Autor: [Tu Nombre]  
+**Proyecto Integrador**  
 Fecha: Junio 2025
 
 ---
 
 ## 📌 Descripción
 
-Este proyecto es un sistema completo de gestión de ventas desarrollado en Python. Aplica principios de Programación Orientada a Objetos (POO), patrones de diseño (Factory, Singleton, Builder, Strategy), acceso a bases de datos relacionales con SQLAlchemy, y consultas avanzadas con Pandas.
+Este proyecto es un sistema básico de gestión de ventas desarrollado en Python. Aplica principios de Programación Orientada a Objetos (POO), patrones de diseño (Factory, Singleton, Strategy), acceso a bases de datos relacionales con SQLAlchemy, con creación de triggers y procedures, y queries con CTE's, funciones de agregación y funciones ventana.
 
 **Características principales:**
 
@@ -23,24 +22,22 @@ Este proyecto es un sistema completo de gestión de ventas desarrollado en Pytho
 ## 📁 Estructura del Proyecto
 
 .
-├── cargar_datos.py # Carga de datos desde JSON con validación
-├── conexion_singleton.py # Patrón Singleton para conexión a DB
-├── modelos_factory.py # Clases ORM con Factory pattern
-├── query.py # Consultas SQL con SQLAlchemy
-├── informes/ # Reportes con patrón Strategy
-│ ├── base.py
-│ ├── informe_por_ciudad.py
-│ ├── informe_ventas_totales.py
-│ └── ...
-├── main.py # Punto de entrada principal
+├── pycache/ # archivos compilados de Python
+├── cache/ #archivos temporales de caché
+├── data/ # datos de entrada
+├── informes_resultado/ # resultados generados de los informes como json
+├── logs/ # archivos de registro (logs)
+├── sql/ # patron strategy para el tipo de consulta
+├── src/ # código fuente principal del sistema
 ├── tests/ # Pruebas unitarias con pytest
-│ └── test_modelos.py
-├── requirements.txt
-└── README.md
-
-yaml
-Copiar
-Editar
+│ └── test_modelos.py # Ejemplo de pruebas unitarias
+├── venv/ # entorno virtual
+├── .env # variables de entorno
+├── .gitignore # archivos y carpetas a ignorar por Git
+├── main.py # punto de entrada principal
+├── queries.ipynb # notebook de queries con cte's
+├── README.md 
+└── requirements.txt # dependencias
 
 ---
 
