@@ -34,7 +34,7 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 -  venv/ # entorno virtual
 -  .env # variables de entorno
 -  .gitignore # archivos y carpetas a ignorar por Git
--  main.py # punto de entrada principal
+-  main.py # archivo donde se inicializa el menú por consola
 -  queries.ipynb # notebook de queries con cte's
 -  README.md 
 -  requirements.txt # dependencias
