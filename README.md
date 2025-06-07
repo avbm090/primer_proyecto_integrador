@@ -66,21 +66,13 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 
 1. clonae el repositorio:
 
-git clone https://github.com/tu_usuario/nombre_proyecto.git
-cd nombre_proyecto
+- git clone https://github.com/tu_usuario/nombre_proyecto.git
+- cd nombre_proyecto
 
-crear entorno virtual
-
-python -m venv venv
-En Windows: venv\Scripts\activate
-Instala las dependencias:
-
-requirements:
-pip install -r requirements.txt
-
-configurar las variables de entorno:
-
-Ejecutar:
-python main.py
-
-Archivo "queries" para ver uso de queries.
+- crear entorno virtual
+  python -m venv venv
+- activar ev: En Windows: venv\Scripts\activate
+- requirements: pip install -r requirements.txt
+- configurar las variables de entorno:
+- Ejecutar: python main.py
+- Ver archivo "queries" para ver uso de queries.
