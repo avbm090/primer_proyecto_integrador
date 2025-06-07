@@ -47,6 +47,8 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 
 - `informes_resultado:` Contiene los archivos JSON generados de los distintos informes solicitados desde consola. Estos archivos se generan desde el método "ejectuar" de la clase "Informe" que heredan las clases que representan cada tipo de informe. Todo esto está organizado con patrón fatcory en el archivo factory.py de la carpeta "informes".
 - `sql:` Contiene el archivo "consultas_sql" con las clases diseñadas utilizando patrón strategy (una clase de consultas select, otra para tipo call y otra para identificar el tipo de consultas que no se pueden realizar,  como update por ejemplo) para una mejor organización. La clase padre llamada "ConsultaStrategy" es la clase abstracta, y sus clases derivadas o hijas "ConsultaSelect", "ConsultaCallProcedure" y "ConsultaDefault" que heredan el método "ejecutar" por polimorfismo. Para determinar la estrategia se utiliza la función "elegir_strategy" que corre dentro de la función "ejecutar_consulta" que se ejecuta en el main.
+- `src:` Contiene la estructura principal del programa:
+    - #conexion:# El archivo conexion_singleton.py contiene la lógica de la conexión a la base de datos. Se almacena una única instancia permitida, a través de una variable privada, llamada __instance que la almacena. El método __new__ detecta si __instance es o no None (como cls._instance), en caso de que así sea, crea una nueva conexión seteando a cls._instance como super().__new__(cls) y se organiza la conexión a la base de datos. 
 
 ## ⚙️ Instalación
 
