@@ -1,0 +1,57 @@
+[
+    {
+        "categoria": "Confections",
+        "total_ventas": 6299,
+        "total_ingresos": "998526.00"
+    },
+    {
+        "categoria": "Meat",
+        "total_ventas": 5486,
+        "total_ingresos": "862283.00"
+    },
+    {
+        "categoria": "Poultry",
+        "total_ventas": 5156,
+        "total_ingresos": "815645.00"
+    },
+    {
+        "categoria": "Cereals",
+        "total_ventas": 5110,
+        "total_ingresos": "805381.00"
+    },
+    {
+        "categoria": "Produce",
+        "total_ventas": 4771,
+        "total_ingresos": "736564.00"
+    },
+    {
+        "categoria": "Beverages",
+        "total_ventas": 4196,
+        "total_ingresos": "673480.00"
+    },
+    {
+        "categoria": "Snails",
+        "total_ventas": 4119,
+        "total_ingresos": "644595.00"
+    },
+    {
+        "categoria": "Seafood",
+        "total_ventas": 4059,
+        "total_ingresos": "642391.00"
+    },
+    {
+        "categoria": "Shell fish",
+        "total_ventas": 3949,
+        "total_ingresos": "621162.00"
+    },
+    {
+        "categoria": "Dairy",
+        "total_ventas": 3892,
+        "total_ingresos": "602614.00"
+    },
+    {
+        "categoria": "Grain",
+        "total_ventas": 2963,
+        "total_ingresos": "460978.00"
+    }
+]

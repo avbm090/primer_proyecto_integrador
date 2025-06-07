@@ -1,0 +1,72 @@
+[
+    {
+        "cliente": 98764,
+        "nombre_cliente": "qwdqwd",
+        "apellido_cliente": null,
+        "cantidad_compras": 1,
+        "total_gastado": "12435456.00"
+    },
+    {
+        "cliente": 98760,
+        "nombre_cliente": "Manuel Prueba",
+        "apellido_cliente": null,
+        "cantidad_compras": 1,
+        "total_gastado": "3333333.00"
+    },
+    {
+        "cliente": 91038,
+        "nombre_cliente": "Darcy",
+        "apellido_cliente": "Bullock",
+        "cantidad_compras": 4,
+        "total_gastado": "1872.00"
+    },
+    {
+        "cliente": 94115,
+        "nombre_cliente": "Blake",
+        "apellido_cliente": "Dalton",
+        "cantidad_compras": 5,
+        "total_gastado": "1848.00"
+    },
+    {
+        "cliente": 96485,
+        "nombre_cliente": "Forrest",
+        "apellido_cliente": "Morton",
+        "cantidad_compras": 3,
+        "total_gastado": "1700.00"
+    },
+    {
+        "cliente": 98273,
+        "nombre_cliente": "Curtis",
+        "apellido_cliente": "Harmon",
+        "cantidad_compras": 4,
+        "total_gastado": "1650.00"
+    },
+    {
+        "cliente": 73360,
+        "nombre_cliente": "Allison",
+        "apellido_cliente": "Davies",
+        "cantidad_compras": 5,
+        "total_gastado": "1615.00"
+    },
+    {
+        "cliente": 79369,
+        "nombre_cliente": "John",
+        "apellido_cliente": "Gross",
+        "cantidad_compras": 4,
+        "total_gastado": "1491.00"
+    },
+    {
+        "cliente": 97705,
+        "nombre_cliente": "Fred",
+        "apellido_cliente": "Roberts",
+        "cantidad_compras": 3,
+        "total_gastado": "1475.00"
+    },
+    {
+        "cliente": 95885,
+        "nombre_cliente": "Aimee",
+        "apellido_cliente": "Banks",
+        "cantidad_compras": 4,
+        "total_gastado": "1475.00"
+    }
+]
