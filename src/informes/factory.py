@@ -5,6 +5,7 @@ from datetime import datetime
 import logging
 from src.loggin import loggin_config
 from cache.cache import cache_ventas 
+from sqlalchemy import text 
 
 loggin_config.configurar_logging()
 logger = logging.getLogger()
@@ -29,21 +30,17 @@ class Informe:
             return df.columns.tolist(), df.values.tolist()
 
         except Exception as e:
-            logger.error(f"Error al ejecutar el procedimiento {procedimiento}: {e}")
+            logger.error(f"error al ejecutar el procedimiento {procedimiento}: {e}")
             raise
 
     def guardar_json(self, df, procedimiento):
         try:
-            folder_path = 'informes_resultado'
-            if not os.path.exists(folder_path):
-                try:
-                    os.makedirs(folder_path)
-                except Exception as e:
-                    logger.error(f"Error al crear la carpeta {folder_path}: {e}")
-                    raise
+            folder_path = 'src/informes_resultado'
+
+            os.makedirs(folder_path, exist_ok=True)
 
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            file_name = f'informes_resultado/{procedimiento}_{timestamp}.json'
+            file_name = f'{folder_path}/{procedimiento}_{timestamp}.json'
 
             records = df.to_dict(orient='records')
             json_data = json.dumps(records, default=str, indent=4)
@@ -51,10 +48,10 @@ class Informe:
             with open(file_name, 'w') as json_file:
                 json.dump(json.loads(json_data), json_file, indent=4)
 
-            logger.info(f"Informe JSON guardado en: {file_name}")
+            logger.info(f"informe JSON guardado en: {file_name}")
 
         except Exception as e:
-            logger.error(f"Error al guardar el archivo JSON para {procedimiento}: {e}")
+            logger.error(f"error al guardar el archivo JSON para {procedimiento}: {e}")
             raise
 
 
@@ -73,29 +70,51 @@ class InformeVentasCategoria(Informe):
         return super().ejecutar(session, 'informe_ventas_categoria')
 
 
-class InformeVentas(Informe):
+class InformeVentasHistorico(Informe):
     def ejecutar(self, session):
-        # caché
         ventas = cache_ventas()
         if ventas:
             logger.info("Usando datos de ventas desde el caché.")
             columnas = ["SalesID", "CustomerID", "Quantity", "TotalPrice", "SalesDate"]
+
+            df = pd.DataFrame(ventas, columns=columnas)
+            self.guardar_json(df, 'informe_ventas_historico')
             return columnas, [(venta[0], venta[1], venta[2], venta[3], venta[4]) for venta in ventas]
         else:
-            logger.info("no se encontraron ventas en caché, consultando la base de datos.")
-            return super().ejecutar(session, 'informe_ventas')
+            logger.info("No se encontraron ventas en caché, consultando la base de datos.")
+            return super().ejecutar(session, 'informe_ventas_historico')
+
+
+class InformeVentas(Informe):
+    def ejecutar(self, session):
+        query = """
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        """
+        resultado = session.execute(text(query))
+        columnas = resultado.keys()
+        filas = resultado.fetchall()
+
+        df = pd.DataFrame(filas, columns=columnas)
+        self.guardar_json(df, 'informe_ventas_auditoria')
+
+        return columnas, filas
 
 
 class InformeFactory:
+
+    informes = {
+        "producto_ciudad": InformeProductoCiudad,
+        "top_clientes": InformeTopClientes,
+        "ventas_categoria": InformeVentasCategoria,
+        "ventas": InformeVentas,
+        "ventas_historico": InformeVentasHistorico
+    }
+
     @staticmethod
     def crear_informe(nombre: str):
-        if nombre == "producto_ciudad":
-            return InformeProductoCiudad()
-        elif nombre == "top_clientes":
-            return InformeTopClientes()
-        elif nombre == "ventas_categoria":
-            return InformeVentasCategoria()
-        elif nombre == "ventas":
-            return InformeVentas()
-        else:
-            return None
+
+        informe_clase = InformeFactory.informes.get(nombre, None)
+        if informe_clase:
+            return informe_clase()
+        return None

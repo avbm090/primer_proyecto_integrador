@@ -1,0 +1,24 @@
+[
+    {
+        "SalesID": 6757938,
+        "SalesPersonID": 28,
+        "CustomerID": 98764,
+        "ProductID": 457,
+        "Quantity": 12,
+        "Discount": "0.00",
+        "TotalPrice": "12435456.00",
+        "SalesDate": "2025-06-06",
+        "TransactionNumber": "1232456tyu"
+    },
+    {
+        "SalesID": 6757938,
+        "SalesPersonID": 28,
+        "CustomerID": 98764,
+        "ProductID": 457,
+        "Quantity": 12,
+        "Discount": "0.00",
+        "TotalPrice": "12435456.00",
+        "SalesDate": "2025-06-06",
+        "TransactionNumber": "1232456tyu"
+    }
+]

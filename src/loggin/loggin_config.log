@@ -1,0 +1,693 @@
+2025-06-07 11:02:09 INFO Inicio del programa
+2025-06-07 11:02:09 INFO iniciando conexión a la base de datos...
+2025-06-07 11:02:09 INFO SELECT DATABASE()
+2025-06-07 11:02:09 INFO [raw sql] {}
+2025-06-07 11:02:09 INFO SELECT @@sql_mode
+2025-06-07 11:02:09 INFO [raw sql] {}
+2025-06-07 11:02:09 INFO SELECT @@lower_case_table_names
+2025-06-07 11:02:09 INFO [raw sql] {}
+2025-06-07 11:02:09 INFO conexión base de datos OK.
+2025-06-07 11:02:14 INFO opción elegida: 3
+2025-06-07 11:02:16 INFO Informe seleccionado: 2
+2025-06-07 11:02:16 INFO sesión de base de datos OK.
+2025-06-07 11:02:16 INFO BEGIN (implicit)
+2025-06-07 11:02:16 INFO Informe top_clientes ejecutado correctamente
+2025-06-07 11:02:16 INFO ROLLBACK
+2025-06-07 11:02:20 INFO opción elegida: 5
+2025-06-07 11:02:20 INFO programa cerrado
+2025-06-07 11:02:47 INFO Inicio del programa
+2025-06-07 11:02:47 INFO iniciando conexión a la base de datos...
+2025-06-07 11:02:47 INFO SELECT DATABASE()
+2025-06-07 11:02:47 INFO [raw sql] {}
+2025-06-07 11:02:47 INFO SELECT @@sql_mode
+2025-06-07 11:02:47 INFO [raw sql] {}
+2025-06-07 11:02:47 INFO SELECT @@lower_case_table_names
+2025-06-07 11:02:47 INFO [raw sql] {}
+2025-06-07 11:02:47 INFO conexión base de datos OK.
+2025-06-07 11:02:49 INFO opción elegida: 4
+2025-06-07 11:02:49 INFO sesión de base de datos OK.
+2025-06-07 11:02:49 INFO BEGIN (implicit)
+2025-06-07 11:02:50 INFO informe ventas ejecutado OK
+2025-06-07 11:02:56 INFO ROLLBACK
+2025-06-07 11:10:55 INFO opción elegida: 5
+2025-06-07 11:10:55 INFO programa cerrado
+2025-06-07 11:10:58 INFO Inicio del programa
+2025-06-07 11:10:58 INFO iniciando conexión a la base de datos...
+2025-06-07 11:10:58 INFO SELECT DATABASE()
+2025-06-07 11:10:58 INFO [raw sql] {}
+2025-06-07 11:10:58 INFO SELECT @@sql_mode
+2025-06-07 11:10:58 INFO [raw sql] {}
+2025-06-07 11:10:58 INFO SELECT @@lower_case_table_names
+2025-06-07 11:10:58 INFO [raw sql] {}
+2025-06-07 11:10:58 INFO conexión base de datos OK.
+2025-06-07 11:11:04 INFO opción elegida: 4
+2025-06-07 11:11:04 INFO sesión de base de datos OK.
+2025-06-07 11:11:04 INFO BEGIN (implicit)
+2025-06-07 11:11:05 INFO informe ventas ejecutado OK
+2025-06-07 11:11:12 INFO ROLLBACK
+2025-06-07 11:11:16 INFO opción elegida: 5
+2025-06-07 11:11:16 INFO programa cerrado
+2025-06-07 11:12:34 INFO Inicio del programa
+2025-06-07 11:12:34 INFO iniciando conexión a la base de datos...
+2025-06-07 11:12:34 INFO SELECT DATABASE()
+2025-06-07 11:12:34 INFO [raw sql] {}
+2025-06-07 11:12:34 INFO SELECT @@sql_mode
+2025-06-07 11:12:34 INFO [raw sql] {}
+2025-06-07 11:12:34 INFO SELECT @@lower_case_table_names
+2025-06-07 11:12:34 INFO [raw sql] {}
+2025-06-07 11:12:34 INFO conexión base de datos OK.
+2025-06-07 11:12:37 INFO opción elegida: 4
+2025-06-07 11:12:37 INFO sesión de base de datos OK.
+2025-06-07 11:12:37 INFO BEGIN (implicit)
+2025-06-07 11:12:39 ERROR error al ejecutar informe ventas: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 112, in main
+    columnas, resultados = informe.ejecutar(session)
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-07 11:12:39 INFO ROLLBACK
+2025-06-07 11:13:49 INFO opción elegida: 5
+2025-06-07 11:13:49 INFO programa cerrado
+2025-06-07 11:13:51 INFO Inicio del programa
+2025-06-07 11:13:51 INFO iniciando conexión a la base de datos...
+2025-06-07 11:13:51 INFO SELECT DATABASE()
+2025-06-07 11:13:51 INFO [raw sql] {}
+2025-06-07 11:13:51 INFO SELECT @@sql_mode
+2025-06-07 11:13:51 INFO [raw sql] {}
+2025-06-07 11:13:51 INFO SELECT @@lower_case_table_names
+2025-06-07 11:13:51 INFO [raw sql] {}
+2025-06-07 11:13:51 INFO conexión base de datos OK.
+2025-06-07 11:13:53 INFO opción elegida: 4
+2025-06-07 11:13:53 INFO sesión de base de datos OK.
+2025-06-07 11:13:53 INFO BEGIN (implicit)
+2025-06-07 11:13:57 ERROR error al ejecutar informe ventas: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 112, in main
+    columnas, resultados = informe.ejecutar(session)
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-07 11:13:57 INFO ROLLBACK
+2025-06-07 11:15:53 INFO opción elegida: 5
+2025-06-07 11:15:53 INFO programa cerrado
+2025-06-07 11:15:55 INFO Inicio del programa
+2025-06-07 11:15:55 INFO iniciando conexión a la base de datos...
+2025-06-07 11:15:55 INFO SELECT DATABASE()
+2025-06-07 11:15:55 INFO [raw sql] {}
+2025-06-07 11:15:55 INFO SELECT @@sql_mode
+2025-06-07 11:15:55 INFO [raw sql] {}
+2025-06-07 11:15:55 INFO SELECT @@lower_case_table_names
+2025-06-07 11:15:55 INFO [raw sql] {}
+2025-06-07 11:15:55 INFO conexión base de datos OK.
+2025-06-07 11:15:58 INFO opción elegida: 4
+2025-06-07 11:15:58 INFO sesión de base de datos OK.
+2025-06-07 11:15:58 INFO BEGIN (implicit)
+2025-06-07 11:16:03 ERROR error al ejecutar informe ventas: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 112, in main
+    columnas, resultados = informe.ejecutar(session)
+    ^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-06-07 11:16:03 INFO ROLLBACK
+2025-06-07 11:27:50 INFO opción elegida: 5
+2025-06-07 11:27:50 INFO programa cerrado
+2025-06-07 11:27:52 INFO Inicio del programa
+2025-06-07 11:27:52 INFO iniciando conexión a la base de datos...
+2025-06-07 11:27:52 INFO SELECT DATABASE()
+2025-06-07 11:27:52 INFO [raw sql] {}
+2025-06-07 11:27:52 INFO SELECT @@sql_mode
+2025-06-07 11:27:52 INFO [raw sql] {}
+2025-06-07 11:27:52 INFO SELECT @@lower_case_table_names
+2025-06-07 11:27:52 INFO [raw sql] {}
+2025-06-07 11:27:52 INFO conexión base de datos OK.
+2025-06-07 11:27:55 INFO opción elegida: 4
+2025-06-07 11:27:55 INFO sesión de base de datos OK.
+2025-06-07 11:27:55 INFO BEGIN (implicit)
+2025-06-07 11:27:58 INFO informe ventas ejecutado OK
+2025-06-07 11:28:04 INFO ROLLBACK
+2025-06-07 11:30:53 INFO opción elegida: 4
+2025-06-07 11:30:53 INFO sesión de base de datos OK.
+2025-06-07 11:30:53 INFO BEGIN (implicit)
+2025-06-07 11:30:55 INFO informe ventas ejecutado OK
+2025-06-07 11:31:01 INFO ROLLBACK
+2025-06-07 11:31:07 INFO opción elegida: 3
+2025-06-07 11:31:09 INFO Informe seleccionado: 2
+2025-06-07 11:31:09 INFO sesión de base de datos OK.
+2025-06-07 11:31:09 INFO BEGIN (implicit)
+2025-06-07 11:31:09 INFO Informe top_clientes ejecutado correctamente
+2025-06-07 11:31:09 INFO ROLLBACK
+2025-06-07 11:33:31 INFO opción elegida: 5
+2025-06-07 11:33:31 INFO programa cerrado
+2025-06-07 11:33:34 INFO Inicio del programa
+2025-06-07 11:33:34 INFO iniciando conexión a la base de datos...
+2025-06-07 11:33:34 INFO SELECT DATABASE()
+2025-06-07 11:33:34 INFO [raw sql] {}
+2025-06-07 11:33:34 INFO SELECT @@sql_mode
+2025-06-07 11:33:34 INFO [raw sql] {}
+2025-06-07 11:33:34 INFO SELECT @@lower_case_table_names
+2025-06-07 11:33:34 INFO [raw sql] {}
+2025-06-07 11:33:34 INFO conexión base de datos OK.
+2025-06-07 11:33:37 INFO opción elegida: 3
+2025-06-07 11:33:39 INFO Informe seleccionado: 3
+2025-06-07 11:33:39 INFO sesión de base de datos OK.
+2025-06-07 11:33:39 INFO BEGIN (implicit)
+2025-06-07 11:33:39 INFO Resultados de informe_ventas_categoria:
+2025-06-07 11:33:39 INFO       categoria  total_ventas total_ingresos
+0   Confections          6299      998526.00
+1          Meat          5486      862283.00
+2       Poultry          5156      815645.00
+3       Cereals          5110      805381.00
+4       Produce          4771      736564.00
+5     Beverages          4196      673480.00
+6        Snails          4119      644595.00
+7       Seafood          4059      642391.00
+8    Shell fish          3949      621162.00
+9         Dairy          3892      602614.00
+10        Grain          2963      460978.00
+2025-06-07 11:33:39 INFO Informe JSON guardado en: informes_resultado/informe_ventas_categoria_20250607_113339.json
+2025-06-07 11:33:39 INFO Informe ventas_categoria ejecutado correctamente
+2025-06-07 11:33:39 INFO ROLLBACK
+2025-06-07 11:34:26 INFO opción elegida: 5
+2025-06-07 11:34:26 INFO programa cerrado
+2025-06-07 13:05:01,568 - INFO - iniciando conexión a la base de datos...
+2025-06-07 13:05:01,638 - INFO - SELECT DATABASE()
+2025-06-07 13:05:01,638 - INFO - [raw sql] {}
+2025-06-07 13:05:01,638 - INFO - SELECT @@sql_mode
+2025-06-07 13:05:01,638 - INFO - [raw sql] {}
+2025-06-07 13:05:01,643 - INFO - SELECT @@lower_case_table_names
+2025-06-07 13:05:01,643 - INFO - [raw sql] {}
+2025-06-07 13:05:01,643 - INFO - conexión base de datos OK.
+2025-06-07 13:05:01,643 - INFO - Inicio del programa
+2025-06-07 13:05:03,879 - INFO - opción elegida: 3
+2025-06-07 13:05:05,544 - INFO - Informe seleccionado: 1
+2025-06-07 13:05:05,544 - INFO - sesión de base de datos OK.
+2025-06-07 13:05:05,544 - INFO - BEGIN (implicit)
+2025-06-07 13:05:07,286 - INFO - Resultados de informe_producto_ciudad_resumen:
+2025-06-07 13:05:07,286 - INFO -         nombre                       producto precio_promedio  cantidad_ventas porcentaje_ventas_ciudad
+0        Akron          Puree - Passion Fruit     98.82630000                1                     0.20
+1        Akron     Bread - Calabrese Baguette     98.59780000                1                     0.20
+2        Akron              Lettuce - Treviso     96.41270000                2                     0.40
+3        Akron     Hot Chocolate - Individual     96.08230000                1                     0.20
+4        Akron  Pork - Hock And Feet Attached     95.74150000                2                     0.40
+...        ...                            ...             ...              ...                      ...
+29620  Yonkers       Seedlings - Mix; Organic      1.29560000                1                     0.17
+29621  Yonkers           Bread Fig And Almond      1.18820000                1                     0.17
+29622  Yonkers  Pastry - Raisin Muffin - Mini      0.42780000                1                     0.17
+29623  Yonkers              Apricots - Halves      0.37350000                2                     0.33
+29624  Yonkers  Bread Crumbs - Japanese Style      0.04490000                2                     0.33
+
+[29625 rows x 5 columns]
+2025-06-07 13:05:08,120 - INFO - Informe JSON guardado en: informes_resultado/informe_producto_ciudad_resumen_20250607_130507.json
+2025-06-07 13:05:08,141 - INFO - informe producto_ciudad ejecutado
+2025-06-07 13:05:11,542 - INFO - ROLLBACK
+2025-06-07 13:05:13,116 - INFO - opción elegida: 5
+2025-06-07 13:05:13,131 - INFO - programa cerrado
+2025-06-07 13:28:02,216 - INFO - iniciando conexión a la base de datos...
+2025-06-07 13:28:02,254 - INFO - SELECT DATABASE()
+2025-06-07 13:28:02,254 - INFO - [raw sql] {}
+2025-06-07 13:28:02,254 - INFO - SELECT @@sql_mode
+2025-06-07 13:28:02,254 - INFO - [raw sql] {}
+2025-06-07 13:28:02,254 - INFO - SELECT @@lower_case_table_names
+2025-06-07 13:28:02,254 - INFO - [raw sql] {}
+2025-06-07 13:28:02,254 - INFO - conexión base de datos OK.
+2025-06-07 13:28:02,254 - INFO - Inicio del programa
+2025-06-07 13:28:02,254 - INFO - sesión de base de datos OK.
+2025-06-07 13:28:05,600 - INFO - opción elegida: 2
+2025-06-07 13:28:05,600 - INFO - ejecutando consulta SQL / procedure almacenado
+2025-06-07 13:28:15,558 - INFO - Estrategia: SELECT
+2025-06-07 13:28:15,559 - INFO - BEGIN (implicit)
+2025-06-07 13:28:15,561 - INFO - select * from products;
+2025-06-07 13:28:15,561 - INFO - [generated in 0.00051s] {}
+2025-06-07 13:28:15,608 - INFO - COMMIT
+2025-06-07 13:28:15,609 - INFO - consulta SQL ejecutada con éxito
+2025-06-07 14:42:47,737 - INFO - opción elegida: 5
+2025-06-07 14:42:47,737 - INFO - programa cerrado
+2025-06-07 15:37:57,013 - INFO - iniciando conexión a la base de datos...
+2025-06-07 15:37:57,088 - INFO - SELECT DATABASE()
+2025-06-07 15:37:57,088 - INFO - [raw sql] {}
+2025-06-07 15:37:57,088 - INFO - SELECT @@sql_mode
+2025-06-07 15:37:57,088 - INFO - [raw sql] {}
+2025-06-07 15:37:57,088 - INFO - SELECT @@lower_case_table_names
+2025-06-07 15:37:57,088 - INFO - [raw sql] {}
+2025-06-07 15:37:57,088 - INFO - conexión base de datos OK.
+2025-06-07 15:37:57,088 - INFO - Inicio del programa
+2025-06-07 15:37:57,088 - INFO - sesión de base de datos OK.
+2025-06-07 15:38:03,677 - INFO - opción elegida: 4
+2025-06-07 15:38:03,677 - INFO - BEGIN (implicit)
+2025-06-07 15:38:03,677 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 15:38:03,677 - INFO - [generated in 0.00068s] {}
+2025-06-07 15:38:03,677 - ERROR - error al ejecutar informe ventas: 'CursorResult' object has no attribute 'description'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 101, in main
+    columnas, resultados = informe.ejecutar(session)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Usuario\Desktop\H\proyecto\src\informes\factory.py", line 86, in ejecutar
+    columnas = [desc[0] for desc in resultado.description]
+                                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'CursorResult' object has no attribute 'description'
+2025-06-07 15:38:52,104 - INFO - opción elegida: 5
+2025-06-07 15:38:52,104 - INFO - programa cerrado
+2025-06-07 15:38:52,104 - INFO - ROLLBACK
+2025-06-07 15:38:54,654 - INFO - iniciando conexión a la base de datos...
+2025-06-07 15:38:54,791 - INFO - SELECT DATABASE()
+2025-06-07 15:38:54,791 - INFO - [raw sql] {}
+2025-06-07 15:38:54,792 - INFO - SELECT @@sql_mode
+2025-06-07 15:38:54,792 - INFO - [raw sql] {}
+2025-06-07 15:38:54,793 - INFO - SELECT @@lower_case_table_names
+2025-06-07 15:38:54,794 - INFO - [raw sql] {}
+2025-06-07 15:38:54,795 - INFO - conexión base de datos OK.
+2025-06-07 15:38:54,795 - INFO - Inicio del programa
+2025-06-07 15:38:54,796 - INFO - sesión de base de datos OK.
+2025-06-07 15:38:57,713 - INFO - opción elegida: 4
+2025-06-07 15:38:57,713 - INFO - BEGIN (implicit)
+2025-06-07 15:38:57,713 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+            WHERE SalesDate >= '2023-01-01'  -- Puedes ajustar el filtro según tus necesidades
+        
+2025-06-07 15:38:57,713 - INFO - [generated in 0.00049s] {}
+2025-06-07 15:38:57,734 - INFO - informe ventas ejecutado OK
+2025-06-07 15:52:58,745 - INFO - opción elegida: 5
+2025-06-07 15:52:58,745 - INFO - programa cerrado
+2025-06-07 15:52:58,745 - INFO - ROLLBACK
+2025-06-07 15:53:01,872 - INFO - iniciando conexión a la base de datos...
+2025-06-07 15:53:01,963 - INFO - SELECT DATABASE()
+2025-06-07 15:53:01,963 - INFO - [raw sql] {}
+2025-06-07 15:53:01,963 - INFO - SELECT @@sql_mode
+2025-06-07 15:53:01,963 - INFO - [raw sql] {}
+2025-06-07 15:53:01,963 - INFO - SELECT @@lower_case_table_names
+2025-06-07 15:53:01,963 - INFO - [raw sql] {}
+2025-06-07 15:53:01,977 - INFO - conexión base de datos OK.
+2025-06-07 15:53:01,977 - INFO - Inicio del programa
+2025-06-07 15:53:01,977 - INFO - sesión de base de datos OK.
+2025-06-07 15:53:04,593 - INFO - opción elegida: 4
+2025-06-07 15:53:04,593 - INFO - BEGIN (implicit)
+2025-06-07 15:53:04,593 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 15:53:04,593 - INFO - [generated in 0.00062s] {}
+2025-06-07 15:53:04,593 - INFO - informe ventas ejecutado OK
+2025-06-07 15:53:09,062 - INFO - opción elegida: 5
+2025-06-07 15:53:09,062 - INFO - sesión de base de datos OK.
+2025-06-07 15:53:09,084 - INFO - BEGIN (implicit)
+2025-06-07 15:53:09,095 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 15:53:09,096 - INFO - [generated in 0.00084s] {}
+2025-06-07 15:53:09,645 - INFO - ROLLBACK
+2025-06-07 15:53:09,645 - INFO - usando datos de ventas desde el caché.
+2025-06-07 15:53:09,654 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 15:57:15,027 - INFO - opción elegida: 5
+2025-06-07 15:57:15,027 - INFO - usando datos de ventas desde el caché.
+2025-06-07 15:57:15,079 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 15:57:24,963 - INFO - opción elegida: 6
+2025-06-07 15:57:24,963 - INFO - programa cerrado
+2025-06-07 15:57:24,963 - INFO - ROLLBACK
+2025-06-07 15:57:28,406 - INFO - iniciando conexión a la base de datos...
+2025-06-07 15:57:28,449 - INFO - SELECT DATABASE()
+2025-06-07 15:57:28,449 - INFO - [raw sql] {}
+2025-06-07 15:57:28,450 - INFO - SELECT @@sql_mode
+2025-06-07 15:57:28,451 - INFO - [raw sql] {}
+2025-06-07 15:57:28,451 - INFO - SELECT @@lower_case_table_names
+2025-06-07 15:57:28,451 - INFO - [raw sql] {}
+2025-06-07 15:57:28,452 - INFO - conexión base de datos OK.
+2025-06-07 15:57:28,452 - INFO - Inicio del programa
+2025-06-07 15:57:28,452 - INFO - sesión de base de datos OK.
+2025-06-07 15:57:32,728 - INFO - opción elegida: 4
+2025-06-07 15:57:32,728 - INFO - BEGIN (implicit)
+2025-06-07 15:57:32,728 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 15:57:32,728 - INFO - [generated in 0.00043s] {}
+2025-06-07 15:57:32,752 - INFO - Informe JSON guardado en: informes_resultado/informe_ventas_20250607_155732.json
+2025-06-07 15:57:32,752 - INFO - informe ventas ejecutado OK
+2025-06-07 15:57:50,392 - INFO - opción elegida: 6
+2025-06-07 15:57:50,392 - INFO - programa cerrado
+2025-06-07 15:57:50,392 - INFO - ROLLBACK
+2025-06-07 16:03:38,419 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:03:38,467 - INFO - SELECT DATABASE()
+2025-06-07 16:03:38,467 - INFO - [raw sql] {}
+2025-06-07 16:03:38,467 - INFO - SELECT @@sql_mode
+2025-06-07 16:03:38,467 - INFO - [raw sql] {}
+2025-06-07 16:03:38,467 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:03:38,467 - INFO - [raw sql] {}
+2025-06-07 16:03:38,467 - INFO - conexión base de datos OK.
+2025-06-07 16:03:38,467 - INFO - Inicio del programa
+2025-06-07 16:03:38,467 - INFO - sesión de base de datos OK.
+2025-06-07 16:03:41,773 - INFO - opción elegida: 5
+2025-06-07 16:03:41,773 - INFO - sesión de base de datos OK.
+2025-06-07 16:03:41,773 - INFO - BEGIN (implicit)
+2025-06-07 16:03:41,788 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 16:03:41,789 - INFO - [generated in 0.00154s] {}
+2025-06-07 16:03:42,320 - INFO - ROLLBACK
+2025-06-07 16:03:42,320 - INFO - Usando datos de ventas desde el caché.
+2025-06-07 16:03:43,340 - INFO - informe JSON guardado en: informes_resultado/informe_ventas_historico_20250607_160342.json
+2025-06-07 16:03:43,350 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 16:03:52,628 - INFO - opción elegida: 6
+2025-06-07 16:03:52,628 - INFO - programa cerrado
+2025-06-07 16:05:48,318 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:05:48,354 - INFO - SELECT DATABASE()
+2025-06-07 16:05:48,354 - INFO - [raw sql] {}
+2025-06-07 16:05:48,354 - INFO - SELECT @@sql_mode
+2025-06-07 16:05:48,354 - INFO - [raw sql] {}
+2025-06-07 16:05:48,354 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:05:48,354 - INFO - [raw sql] {}
+2025-06-07 16:05:48,354 - INFO - conexión base de datos OK.
+2025-06-07 16:05:48,354 - INFO - Inicio del programa
+2025-06-07 16:05:48,354 - INFO - sesión de base de datos OK.
+2025-06-07 16:05:51,322 - INFO - opción elegida: 4
+2025-06-07 16:05:51,322 - INFO - BEGIN (implicit)
+2025-06-07 16:05:51,322 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:05:51,322 - INFO - [generated in 0.00044s] {}
+2025-06-07 16:05:51,338 - INFO - informe JSON guardado en: informes_resultado/informe_ventas_20250607_160551.json
+2025-06-07 16:05:51,338 - INFO - informe ventas ejecutado OK
+2025-06-07 16:05:54,879 - INFO - opción elegida: 5
+2025-06-07 16:05:54,879 - INFO - sesión de base de datos OK.
+2025-06-07 16:05:54,894 - INFO - BEGIN (implicit)
+2025-06-07 16:05:54,894 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 16:05:54,894 - INFO - [generated in 0.00064s] {}
+2025-06-07 16:05:55,450 - INFO - ROLLBACK
+2025-06-07 16:05:55,450 - INFO - Usando datos de ventas desde el caché.
+2025-06-07 16:05:56,492 - INFO - informe JSON guardado en: informes_resultado/informe_ventas_historico_20250607_160555.json
+2025-06-07 16:05:56,502 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 16:07:22,976 - INFO - opción elegida: 6
+2025-06-07 16:07:22,976 - INFO - programa cerrado
+2025-06-07 16:07:22,979 - INFO - ROLLBACK
+2025-06-07 16:16:56,169 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:16:56,222 - INFO - SELECT DATABASE()
+2025-06-07 16:16:56,222 - INFO - [raw sql] {}
+2025-06-07 16:16:56,222 - INFO - SELECT @@sql_mode
+2025-06-07 16:16:56,222 - INFO - [raw sql] {}
+2025-06-07 16:16:56,222 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:16:56,222 - INFO - [raw sql] {}
+2025-06-07 16:16:56,222 - INFO - conexión base de datos OK.
+2025-06-07 16:16:56,222 - INFO - Inicio del programa
+2025-06-07 16:16:56,222 - INFO - sesión de base de datos OK.
+2025-06-07 16:16:59,198 - INFO - opción elegida: 4
+2025-06-07 16:16:59,198 - ERROR - error al ejecutar informe ventas: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 103, in main
+    columnas, resultados = informe.ejecutar(session)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+2025-06-07 16:20:26,457 - INFO - opción elegida: 6
+2025-06-07 16:20:26,457 - INFO - programa cerrado
+2025-06-07 16:20:28,913 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:20:28,960 - INFO - SELECT DATABASE()
+2025-06-07 16:20:28,960 - INFO - [raw sql] {}
+2025-06-07 16:20:28,960 - INFO - SELECT @@sql_mode
+2025-06-07 16:20:28,960 - INFO - [raw sql] {}
+2025-06-07 16:20:28,960 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:20:28,960 - INFO - [raw sql] {}
+2025-06-07 16:20:28,960 - INFO - conexión base de datos OK.
+2025-06-07 16:20:28,960 - INFO - Inicio del programa
+2025-06-07 16:20:28,960 - INFO - sesión de base de datos OK.
+2025-06-07 16:20:30,549 - INFO - opción elegida: 4
+2025-06-07 16:20:30,549 - ERROR - error al ejecutar informe ventas: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 103, in main
+    columnas, resultados = informe.ejecutar(session)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+2025-06-07 16:22:54,752 - INFO - opción elegida: 6
+2025-06-07 16:22:54,752 - INFO - programa cerrado
+2025-06-07 16:22:56,989 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:22:57,039 - INFO - SELECT DATABASE()
+2025-06-07 16:22:57,039 - INFO - [raw sql] {}
+2025-06-07 16:22:57,040 - INFO - SELECT @@sql_mode
+2025-06-07 16:22:57,040 - INFO - [raw sql] {}
+2025-06-07 16:22:57,040 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:22:57,040 - INFO - [raw sql] {}
+2025-06-07 16:22:57,040 - INFO - conexión base de datos OK.
+2025-06-07 16:22:57,040 - INFO - Inicio del programa
+2025-06-07 16:22:57,040 - INFO - sesión de base de datos OK.
+2025-06-07 16:22:59,233 - INFO - opción elegida: 4
+2025-06-07 16:22:59,233 - ERROR - error al ejecutar informe ventas: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+Traceback (most recent call last):
+  File "C:\Users\Usuario\Desktop\H\proyecto\main.py", line 103, in main
+    columnas, resultados = informe.ejecutar(session)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: InformeVentas.ejecutar() missing 1 required positional argument: 'session'
+2025-06-07 16:23:10,398 - INFO - opción elegida: 6
+2025-06-07 16:23:10,398 - INFO - programa cerrado
+2025-06-07 16:23:12,935 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:23:12,987 - INFO - SELECT DATABASE()
+2025-06-07 16:23:12,987 - INFO - [raw sql] {}
+2025-06-07 16:23:12,987 - INFO - SELECT @@sql_mode
+2025-06-07 16:23:12,987 - INFO - [raw sql] {}
+2025-06-07 16:23:12,987 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:23:12,987 - INFO - [raw sql] {}
+2025-06-07 16:23:12,987 - INFO - conexión base de datos OK.
+2025-06-07 16:23:12,987 - INFO - Inicio del programa
+2025-06-07 16:23:12,987 - INFO - sesión de base de datos OK.
+2025-06-07 16:23:14,408 - INFO - opción elegida: 4
+2025-06-07 16:23:14,408 - INFO - BEGIN (implicit)
+2025-06-07 16:23:14,408 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:23:14,408 - INFO - [generated in 0.00057s] {}
+2025-06-07 16:23:14,432 - INFO - informe JSON guardado en: informes_resultado/informe_ventas_20250607_162314.json
+2025-06-07 16:23:14,432 - INFO - informe ventas ejecutado OK
+2025-06-07 16:26:43,107 - INFO - opción elegida: 6
+2025-06-07 16:26:43,107 - INFO - programa cerrado
+2025-06-07 16:26:43,107 - INFO - ROLLBACK
+2025-06-07 16:26:45,041 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:26:45,078 - INFO - SELECT DATABASE()
+2025-06-07 16:26:45,078 - INFO - [raw sql] {}
+2025-06-07 16:26:45,078 - INFO - SELECT @@sql_mode
+2025-06-07 16:26:45,078 - INFO - [raw sql] {}
+2025-06-07 16:26:45,078 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:26:45,078 - INFO - [raw sql] {}
+2025-06-07 16:26:45,078 - INFO - conexión base de datos OK.
+2025-06-07 16:26:45,078 - INFO - Inicio del programa
+2025-06-07 16:26:45,078 - INFO - sesión de base de datos OK.
+2025-06-07 16:26:46,683 - INFO - opción elegida: 4
+2025-06-07 16:26:46,683 - INFO - BEGIN (implicit)
+2025-06-07 16:26:46,683 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:26:46,683 - INFO - [generated in 0.00043s] {}
+2025-06-07 16:26:46,683 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_20250607_162646.json
+2025-06-07 16:26:46,683 - INFO - informe ventas ejecutado OK
+2025-06-07 16:27:16,401 - INFO - opción elegida: 5
+2025-06-07 16:27:16,401 - INFO - sesión de base de datos OK.
+2025-06-07 16:27:16,416 - INFO - BEGIN (implicit)
+2025-06-07 16:27:16,416 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 16:27:16,416 - INFO - [generated in 0.00059s] {}
+2025-06-07 16:27:16,958 - INFO - ROLLBACK
+2025-06-07 16:27:16,960 - INFO - Usando datos de ventas desde el caché.
+2025-06-07 16:27:18,022 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_historico_20250607_162716.json
+2025-06-07 16:27:18,035 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 16:27:25,142 - INFO - opción elegida: 6
+2025-06-07 16:27:25,142 - INFO - programa cerrado
+2025-06-07 16:27:25,142 - INFO - ROLLBACK
+2025-06-07 16:33:15,167 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:33:15,220 - INFO - SELECT DATABASE()
+2025-06-07 16:33:15,221 - INFO - [raw sql] {}
+2025-06-07 16:33:15,222 - INFO - SELECT @@sql_mode
+2025-06-07 16:33:15,222 - INFO - [raw sql] {}
+2025-06-07 16:33:15,222 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:33:15,223 - INFO - [raw sql] {}
+2025-06-07 16:33:15,223 - INFO - conexión base de datos OK.
+2025-06-07 16:33:15,224 - INFO - Inicio del programa
+2025-06-07 16:33:15,224 - INFO - sesión de base de datos OK.
+2025-06-07 16:33:16,741 - INFO - opción elegida: 3
+2025-06-07 16:33:19,499 - INFO - Informe seleccionado: 2
+2025-06-07 16:33:19,499 - INFO - BEGIN (implicit)
+2025-06-07 16:33:19,795 - INFO - Resultados de informe_top_clientes:
+2025-06-07 16:33:19,795 - INFO -    cliente nombre_cliente apellido_cliente  cantidad_compras total_gastado
+0    98764         qwdqwd             None                 1   12435456.00
+1    98760  Manuel Prueba             None                 1    3333333.00
+2    91038          Darcy          Bullock                 4       1872.00
+3    94115          Blake           Dalton                 5       1848.00
+4    96485        Forrest           Morton                 3       1700.00
+5    98273         Curtis           Harmon                 4       1650.00
+6    73360        Allison           Davies                 5       1615.00
+7    79369           John            Gross                 4       1491.00
+8    97705           Fred          Roberts                 3       1475.00
+9    95885          Aimee            Banks                 4       1475.00
+2025-06-07 16:33:19,811 - INFO - informe JSON guardado en: src/informes_resultado/informe_top_clientes_20250607_163319.json
+2025-06-07 16:33:19,811 - INFO - informe top_clientes ejecutado
+2025-06-07 16:35:26,197 - INFO - opción elegida: 6
+2025-06-07 16:35:26,198 - INFO - programa cerrado
+2025-06-07 16:35:26,198 - INFO - ROLLBACK
+2025-06-07 16:35:28,333 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:35:28,380 - INFO - SELECT DATABASE()
+2025-06-07 16:35:28,380 - INFO - [raw sql] {}
+2025-06-07 16:35:28,380 - INFO - SELECT @@sql_mode
+2025-06-07 16:35:28,384 - INFO - [raw sql] {}
+2025-06-07 16:35:28,384 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:35:28,384 - INFO - [raw sql] {}
+2025-06-07 16:35:28,384 - INFO - conexión base de datos OK.
+2025-06-07 16:35:28,384 - INFO - Inicio del programa
+2025-06-07 16:35:28,384 - INFO - sesión de base de datos OK.
+2025-06-07 16:35:31,758 - INFO - opción elegida: 5
+2025-06-07 16:35:31,758 - INFO - sesión de base de datos OK.
+2025-06-07 16:35:31,758 - INFO - BEGIN (implicit)
+2025-06-07 16:35:31,773 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 16:35:31,773 - INFO - [generated in 0.00060s] {}
+2025-06-07 16:35:32,325 - INFO - ROLLBACK
+2025-06-07 16:35:32,325 - INFO - Usando datos de ventas desde el caché.
+2025-06-07 16:35:33,339 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_historico_20250607_163532.json
+2025-06-07 16:35:33,357 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 16:35:41,832 - INFO - opción elegida: 4
+2025-06-07 16:35:41,832 - INFO - BEGIN (implicit)
+2025-06-07 16:35:41,832 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:35:41,832 - INFO - [generated in 0.00067s] {}
+2025-06-07 16:35:41,832 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_20250607_163541.json
+2025-06-07 16:35:41,849 - INFO - informe ventas ejecutado OK
+2025-06-07 16:35:57,953 - INFO - opción elegida: 4
+2025-06-07 16:35:57,953 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:35:57,953 - INFO - [cached since 16.13s ago] {}
+2025-06-07 16:35:57,953 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_20250607_163557.json
+2025-06-07 16:35:57,953 - INFO - informe ventas ejecutado OK
+2025-06-07 16:37:14,351 - INFO - opción elegida: 6
+2025-06-07 16:37:14,355 - INFO - programa cerrado
+2025-06-07 16:37:14,355 - INFO - ROLLBACK
+2025-06-07 16:37:16,084 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:37:16,127 - INFO - SELECT DATABASE()
+2025-06-07 16:37:16,127 - INFO - [raw sql] {}
+2025-06-07 16:37:16,127 - INFO - SELECT @@sql_mode
+2025-06-07 16:37:16,127 - INFO - [raw sql] {}
+2025-06-07 16:37:16,127 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:37:16,127 - INFO - [raw sql] {}
+2025-06-07 16:37:16,127 - INFO - conexión base de datos OK.
+2025-06-07 16:37:16,127 - INFO - Inicio del programa
+2025-06-07 16:37:16,127 - INFO - sesión de base de datos OK.
+2025-06-07 16:37:22,118 - INFO - opción elegida: 5
+2025-06-07 16:37:22,134 - INFO - sesión de base de datos OK.
+2025-06-07 16:37:22,134 - INFO - BEGIN (implicit)
+2025-06-07 16:37:22,134 - INFO - SELECT sales.`SalesID` AS `sales_SalesID`, sales.`CustomerID` AS `sales_CustomerID`, sales.`Quantity` AS `sales_Quantity`, sales.`TotalPrice` AS `sales_TotalPrice`, sales.`SalesDate` AS `sales_SalesDate` 
+FROM sales
+2025-06-07 16:37:22,134 - INFO - [generated in 0.00064s] {}
+2025-06-07 16:37:22,668 - INFO - ROLLBACK
+2025-06-07 16:37:22,678 - INFO - Usando datos de ventas desde el caché.
+2025-06-07 16:37:23,684 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_historico_20250607_163722.json
+2025-06-07 16:37:23,694 - INFO - informe ventas_historico ejecutado OK
+2025-06-07 16:37:31,170 - INFO - opción elegida: 4
+2025-06-07 16:37:31,170 - INFO - BEGIN (implicit)
+2025-06-07 16:37:31,170 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:37:31,170 - INFO - [generated in 0.00041s] {}
+2025-06-07 16:37:31,170 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_20250607_163731.json
+2025-06-07 16:37:31,170 - INFO - informe ventas ejecutado OK
+2025-06-07 16:37:54,000 - INFO - opción elegida: 6
+2025-06-07 16:37:54,000 - INFO - programa cerrado
+2025-06-07 16:37:54,000 - INFO - ROLLBACK
+2025-06-07 16:37:56,726 - INFO - iniciando conexión a la base de datos...
+2025-06-07 16:37:56,768 - INFO - SELECT DATABASE()
+2025-06-07 16:37:56,768 - INFO - [raw sql] {}
+2025-06-07 16:37:56,768 - INFO - SELECT @@sql_mode
+2025-06-07 16:37:56,768 - INFO - [raw sql] {}
+2025-06-07 16:37:56,768 - INFO - SELECT @@lower_case_table_names
+2025-06-07 16:37:56,768 - INFO - [raw sql] {}
+2025-06-07 16:37:56,768 - INFO - conexión base de datos OK.
+2025-06-07 16:37:56,768 - INFO - Inicio del programa
+2025-06-07 16:37:56,768 - INFO - sesión de base de datos OK.
+2025-06-07 16:38:00,500 - INFO - opción elegida: 4
+2025-06-07 16:38:00,500 - INFO - BEGIN (implicit)
+2025-06-07 16:38:00,500 - INFO - 
+            SELECT SalesID, SalesPersonID, CustomerID, ProductID, Quantity, Discount, TotalPrice, SalesDate, TransactionNumber
+            FROM sales_log
+        
+2025-06-07 16:38:00,500 - INFO - [generated in 0.00033s] {}
+2025-06-07 16:38:00,500 - INFO - informe JSON guardado en: src/informes_resultado/informe_ventas_auditoria_20250607_163800.json
+2025-06-07 16:38:00,500 - INFO - informe ventas ejecutado OK
+2025-06-07 16:38:07,398 - INFO - opción elegida: 6
+2025-06-07 16:38:07,398 - INFO - programa cerrado
+2025-06-07 16:38:07,398 - INFO - ROLLBACK
+2025-06-07 18:27:16,951 - INFO - iniciando conexión a la base de datos...
+2025-06-07 18:27:17,020 - INFO - SELECT DATABASE()
+2025-06-07 18:27:17,020 - INFO - [raw sql] {}
+2025-06-07 18:27:17,020 - INFO - SELECT @@sql_mode
+2025-06-07 18:27:17,020 - INFO - [raw sql] {}
+2025-06-07 18:27:17,020 - INFO - SELECT @@lower_case_table_names
+2025-06-07 18:27:17,020 - INFO - [raw sql] {}
+2025-06-07 18:27:17,036 - INFO - conexión base de datos OK.
+2025-06-07 18:27:17,036 - INFO - Inicio del programa
+2025-06-07 18:27:17,036 - INFO - sesión de base de datos OK.
+2025-06-07 18:27:18,604 - INFO - opción elegida: 1
+2025-06-07 18:27:26,255 - INFO - intento de insert en tabla: Category
+2025-06-07 18:27:32,852 - INFO - BEGIN (implicit)
+2025-06-07 18:27:32,853 - INFO - SET @resultado = '';
+2025-06-07 18:27:32,854 - INFO - [generated in 0.00045s] {}
+2025-06-07 18:27:32,855 - INFO - CALL InsertCategory(%(nombre)s, @resultado);
+2025-06-07 18:27:32,855 - INFO - [generated in 0.00029s] {'nombre': 'Arboles'}
+2025-06-07 18:27:32,885 - INFO - SELECT @resultado;
+2025-06-07 18:27:32,885 - INFO - [generated in 0.00035s] {}
+2025-06-07 18:27:32,885 - INFO - COMMIT
+2025-06-07 18:27:32,885 - INFO - insert OK Category
+2025-06-07 18:28:54,230 - INFO - opción elegida: 6
+2025-06-07 18:28:54,230 - INFO - programa cerrado
+2025-06-07 18:28:58,027 - INFO - iniciando conexión a la base de datos...
+2025-06-07 18:28:58,071 - INFO - SELECT DATABASE()
+2025-06-07 18:28:58,071 - INFO - [raw sql] {}
+2025-06-07 18:28:58,071 - INFO - SELECT @@sql_mode
+2025-06-07 18:28:58,071 - INFO - [raw sql] {}
+2025-06-07 18:28:58,071 - INFO - SELECT @@lower_case_table_names
+2025-06-07 18:28:58,071 - INFO - [raw sql] {}
+2025-06-07 18:28:58,071 - INFO - conexión base de datos OK.
+2025-06-07 18:28:58,071 - INFO - Inicio del programa
+2025-06-07 18:28:58,071 - INFO - sesión de base de datos OK.
+2025-06-07 18:29:02,479 - INFO - opción elegida: 6
+2025-06-07 18:29:02,479 - INFO - programa cerrado
+2025-06-07 19:27:46,902 - INFO - iniciando conexión a la base de datos...
+2025-06-07 19:27:46,949 - INFO - SELECT DATABASE()
+2025-06-07 19:27:46,949 - INFO - [raw sql] {}
+2025-06-07 19:27:46,949 - INFO - SELECT @@sql_mode
+2025-06-07 19:27:46,949 - INFO - [raw sql] {}
+2025-06-07 19:27:46,949 - INFO - SELECT @@lower_case_table_names
+2025-06-07 19:27:46,949 - INFO - [raw sql] {}
+2025-06-07 19:27:46,949 - INFO - conexión base de datos OK.
+2025-06-07 19:27:46,949 - INFO - Inicio del programa
+2025-06-07 19:27:46,949 - INFO - sesión de base de datos OK.
+2025-06-07 19:27:49,548 - INFO - opción elegida: 1
+2025-06-07 19:28:05,828 - INFO - intento de insert en tabla: Sale
+2025-06-07 19:28:15,565 - INFO - Intentando insertar venta - Vendedor: asegri, Cliente: pwqenv, Producto: alcidn fpso
+2025-06-07 19:28:36,218 - INFO - BEGIN (implicit)
+2025-06-07 19:28:36,218 - INFO - SET @resultado = '';
+2025-06-07 19:28:36,218 - INFO - [generated in 0.00050s] {}
+2025-06-07 19:28:36,218 - INFO - CALL InsertSale(
+                            %(nombre_vendedor)s, %(nombre_cliente)s, %(nombre_producto)s,
+                            %(cantidad)s, %(descuento)s, %(total)s, %(fecha)s, %(transaccion)s, @resultado
+                    );
+2025-06-07 19:28:36,224 - INFO - [generated in 0.00069s] {'nombre_vendedor': 'asegri', 'nombre_cliente': 'pwqenv', 'nombre_producto': 'alcidn fpso', 'cantidad': 14, 'descuento': 0.0, 'total': 23456.0, 'fecha': datetime.time(19, 28), 'transaccion': 'dqoev948f'}
+2025-06-07 19:28:36,269 - INFO - SELECT @resultado;
+2025-06-07 19:28:36,270 - INFO - [generated in 0.00051s] {}
+2025-06-07 19:28:36,270 - INFO - COMMIT
+2025-06-07 19:28:36,270 - INFO - Venta insertada exitosamente. Resultado: Venta insertada. IDs usados -> Vendedor: 30, Cliente: 98766, Producto: 459
+2025-06-07 19:28:36,270 - INFO - insert OK Sale
+2025-06-07 19:29:53,030 - INFO - opción elegida: 6
+2025-06-07 19:29:53,030 - INFO - programa cerrado
+2025-06-07 19:29:55,262 - INFO - iniciando conexión a la base de datos...
+2025-06-07 19:29:55,305 - INFO - SELECT DATABASE()
+2025-06-07 19:29:55,305 - INFO - [raw sql] {}
+2025-06-07 19:29:55,305 - INFO - SELECT @@sql_mode
+2025-06-07 19:29:55,305 - INFO - [raw sql] {}
+2025-06-07 19:29:55,305 - INFO - SELECT @@lower_case_table_names
+2025-06-07 19:29:55,305 - INFO - [raw sql] {}
+2025-06-07 19:29:55,305 - INFO - conexión base de datos OK.
+2025-06-07 19:29:55,305 - INFO - Inicio del programa
+2025-06-07 19:29:55,305 - INFO - sesión de base de datos OK.
+2025-06-07 19:29:57,800 - INFO - opción elegida: 6
+2025-06-07 19:29:57,800 - INFO - programa cerrado
