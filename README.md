@@ -39,7 +39,7 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 -  README.md 
 -  requirements.txt # dependencias
 
---- Detelles:
+## :eyeglasses: Detelles:
 
 - `cache.py`  
 
