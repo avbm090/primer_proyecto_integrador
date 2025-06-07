@@ -3,7 +3,6 @@
 **Proyecto Integrador**  
 Fecha: Junio 2025
 
----
 
 ## 📌 Descripción
 
@@ -17,7 +16,6 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 - Conexión segura y única a MySQL usando variables de entorno.  
 - Pruebas automatizadas con `pytest`.  
 
----
 
 ## 📁 Estructura del Proyecto
 
