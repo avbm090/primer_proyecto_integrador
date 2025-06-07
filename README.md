@@ -21,23 +21,23 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 
 ## 📁 Estructura del Proyecto
 
-.
-├── pycache/ # archivos compilados de Python
-├── cache/ #archivos temporales de caché
-├── data/ # datos de entrada
-├── informes_resultado/ # resultados generados de los informes como json
-├── logs/ # archivos de registro (logs)
-├── sql/ # patron strategy para el tipo de consulta
-├── src/ # código fuente principal del sistema
-├── tests/ # Pruebas unitarias con pytest
-│ └── test_modelos.py # Ejemplo de pruebas unitarias
-├── venv/ # entorno virtual
-├── .env # variables de entorno
-├── .gitignore # archivos y carpetas a ignorar por Git
-├── main.py # punto de entrada principal
-├── queries.ipynb # notebook de queries con cte's
-├── README.md 
-└── requirements.txt # dependencias
+
+- pycache/ # archivos compilados de Python
+-  cache/ #archivos temporales de caché
+-  data/ # datos de entrada
+-  informes_resultado/ # resultados generados de los informes como json
+- logs/ # archivos de registro (logs)
+-  sql/ # patron strategy para el tipo de consulta
+-  src/ # código fuente principal del sistema
+-  tests/ # Pruebas unitarias con pytest
+   - test_modelos.py # Ejemplo de pruebas unitarias
+-  venv/ # entorno virtual
+-  .env # variables de entorno
+-  .gitignore # archivos y carpetas a ignorar por Git
+-  main.py # punto de entrada principal
+-  queries.ipynb # notebook de queries con cte's
+-  README.md 
+-  requirements.txt # dependencias
 
 ---
 
