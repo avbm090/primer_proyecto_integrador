@@ -22,7 +22,7 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 ## 📁 Estructura del Proyecto
 
 
-- pycache/ # archivos compilados de Python
+
 -  cache/ #archivos temporales de caché
 -  data/ # datos de entrada
 -  informes_resultado/ # resultados generados de los informes como json
