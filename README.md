@@ -1,4 +1,4 @@
-# 🛒 Sistema de gestión de ventas simple
+# 🛒 Sistema simple de gestión de ventas 
 
 **Proyecto Integrador**  
 Fecha: Junio 2025
