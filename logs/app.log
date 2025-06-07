@@ -1,0 +1,33 @@
+2025-06-07 12:18:03,809 - INFO - iniciando conexión a la base de datos...
+2025-06-07 12:18:03,915 - INFO - SELECT DATABASE()
+2025-06-07 12:18:03,915 - INFO - [raw sql] {}
+2025-06-07 12:18:03,918 - INFO - SELECT @@sql_mode
+2025-06-07 12:18:03,918 - INFO - [raw sql] {}
+2025-06-07 12:18:03,918 - INFO - SELECT @@lower_case_table_names
+2025-06-07 12:18:03,918 - INFO - [raw sql] {}
+2025-06-07 12:18:03,923 - INFO - conexión base de datos OK.
+2025-06-07 12:18:03,923 - INFO - Inicio del programa
+2025-06-07 12:18:17,598 - INFO - opción elegida: 3
+2025-06-07 12:18:19,791 - INFO - Informe seleccionado: 1
+2025-06-07 12:18:19,791 - INFO - sesión de base de datos OK.
+2025-06-07 12:18:19,791 - INFO - BEGIN (implicit)
+2025-06-07 12:18:21,719 - INFO - Resultados de informe_producto_ciudad_resumen:
+2025-06-07 12:18:21,719 - INFO -         nombre                       producto precio_promedio  cantidad_ventas porcentaje_ventas_ciudad
+0        Akron          Puree - Passion Fruit     98.82630000                1                     0.20
+1        Akron     Bread - Calabrese Baguette     98.59780000                1                     0.20
+2        Akron              Lettuce - Treviso     96.41270000                2                     0.40
+3        Akron     Hot Chocolate - Individual     96.08230000                1                     0.20
+4        Akron  Pork - Hock And Feet Attached     95.74150000                2                     0.40
+...        ...                            ...             ...              ...                      ...
+29620  Yonkers       Seedlings - Mix; Organic      1.29560000                1                     0.17
+29621  Yonkers           Bread Fig And Almond      1.18820000                1                     0.17
+29622  Yonkers  Pastry - Raisin Muffin - Mini      0.42780000                1                     0.17
+29623  Yonkers              Apricots - Halves      0.37350000                2                     0.33
+29624  Yonkers  Bread Crumbs - Japanese Style      0.04490000                2                     0.33
+
+[29625 rows x 5 columns]
+2025-06-07 12:18:22,539 - INFO - Informe JSON guardado en: informes_resultado/informe_producto_ciudad_resumen_20250607_121821.json
+2025-06-07 12:18:22,563 - INFO - informe producto_ciudad ejecutado
+2025-06-07 12:18:25,930 - INFO - ROLLBACK
+2025-06-07 12:18:27,980 - INFO - opción elegida: 5
+2025-06-07 12:18:27,980 - INFO - programa cerrado
