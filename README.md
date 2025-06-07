@@ -28,7 +28,6 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
 -  sql/ # patron strategy para el tipo de consulta
 -  src/ # código fuente principal del sistema
 -  tests/ # Pruebas unitarias con pytest
-   - test_modelos.py # Ejemplo de pruebas unitarias
 -  venv/ # entorno virtual
 -  .env # variables de entorno
 -  .gitignore # archivos y carpetas a ignorar por Git
