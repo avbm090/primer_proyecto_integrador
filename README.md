@@ -59,20 +59,38 @@ Este proyecto es un sistema básico de gestión de ventas desarrollado en Python
             - **procedures:** contiene lso procedimientos mencionados en **registros_insert**. Estos son: "InsertCustomer()", "InsertEmployee()", "InsertProduct()", e "InsertSale()". Cada uno contiene el tipo de variable que se espera y una salida, dependiendo de si el dato ya estaba cargado en la tabla o no. Cabe aclarar que esto último no se controla en la tabal ventas, dado que se asume que todas las ventas insertadas son distintas.
 
 - `tests:` contiene los tests unitarios.
+- **test_caché.py:** este test corrobora si los datos se consultan pro primera vez al caché o a la base de datos. La primera vez consultará a la bbdd y la segunda llamada deberá ser consultada al caché.
+- mock_session(): El fixture mock_session ( con decorador @pytest.fixture ) crea un mock de la sesión. En este caso, es una instancia de MagicMock() que simula el comportamiento de la sesión que se usaría en una base de datos en SQLAlchemy. Se configura para que mock_session.query.return_value.all.return_value devuelva una lista de tuplas que simulan registros de ventas.
+- test_cache_ventas() (1): En este test, se utiliza un mock de la función get_session() de la clase ConexionSingleton, usando @patch.object(ConexionSingleton, 'get_session'). Esto reemplaza la función get_session() con un objeto simulado, mock_get_session. Este mock está configurado para devolver el objeto mock_session cuando se llama. El objeto mock_session proviene del fixture mock_session(), que simula el comportamiento de una sesión de base de datos. La función cache_ventas() utiliza este mock de la sesión, y se verifica que la consulta a la base de datos (simulada) devuelva los datos esperados, es decir, las dos ventas preconfiguradas. Además, se asegura que la consulta a la base de datos mockeada se haya realizado solo una vez, lo que implica que cache_ventas() solo consultó la base de datos una vez.
+- test_cache_ventas() (2): test_cache_ventas() (2): Este test evalúa si la función cache_ventas() utiliza correctamente el caché después de realizar una consulta inicial a la base de datos. En la primera llamada a cache_ventas(), se espera que la función consulte a la base de datos simulada (a través de la sesión mockeada). En la segunda llamada, se espera que la función recupere los mismos datos, pero esta vez desde el caché, sin consultar nuevamente la base de datos.
+Se verifica que los resultados de ambas llamadas sean iguales, lo que indica que el caché está funcionando correctamente. Además, se comprueba que la base de datos haya sido consultada solo una vez, lo que asegura que la segunda llamada a cache_ventas no realice una nueva consulta a la base de datos, sino que obtenga los datos desde el caché.
+Al igual que en el primer test, se utiliza @patch.object para reemplazar el método get_session de ConexionSingleton y simular la sesión de base de datos. Los argumentos mock_get_session y mock_session permiten controlar el comportamiento de la sesión simulada para realizar las verificaciones necesarias en el test.
+- **test_conexion.py:** Este test es el más simple de todos, solamente corrobora que, si se crean dos sesiones, estas utilizan el mismo engine.
+- **test_crear_tablas.py:**
+- test de creación OK:
+      - Se usa @patch para reemplazar la función create_all de SQLAlchemy (que se usa para crear las tablas) por un mock.
+      - mock_create_all.return_value = None: Simula que la función create_all no devuelve nada (como en una ejecución exitosa).
+      - conexion = ConexionSingleton(): Se crea una instancia de la clase ConexionSingleton, que es la que maneja la conexión a la base de datos (en este caso mockeada).
+       - Base.metadata.create_all(conexion.engine): Esta línea simula la creación de las tablas en la base de datos utilizando el engine de la conexión.                   - mock_create_all.assert_called_once_with(mock_conexion.engine): Verifica que la función create_all fue llamada una sola vez y con el engine correcto de la conexión mockeada.
+- test de error en la creación de tablas: ene ste test se verifica que se maneje adecuadamente un error durante la creación de las tablas.
+       - @patch con side_effect: En lugar de devolver None, se utiliza side_effect=SQLAlchemyError("Error en la base de datos") para simular que la función create_all genera un error de tipo SQLAlchemyError.
+       - mock_create_all.assert_called_once_with(mock_conexion.engine): Como en el test anterior, acá se verifica que la función create_all haya sido llamada una sola vez con el engine correcto de la conexión mockeada. El test asegura que, a pesar de que ocurra un error en la creación de las tablas, la función create_all haya sido llamada una vez con el engine de la conexión mockeada.
+- **test_registros_insert.py:** En términos generales, lo que se hace en este test es:
+      - se crea una base de datos en memoria con sqlite.
+      - se copian y pegan los modelos ya creados, que representan las tablas, para que ahora se creen en la base de datos simulada.
+      - se define una función genérica para insertar los datos en las tablas.
+      - se crea una función por cada tabla de tal manera que, si se ingresan datos, estos coincidan con los esperados.
 - `main.py:` archivo donde se ejecuta el menú principal por consola.
-- `queries:` archivo tipo ipynb que muestra algunas queries extras que podrían ser de utilidad. Se utilizan CTE's y funciones ventana. 
+- `queries:` archivo tipo ipynb que muestra algunas queries extras que podrían ser de utilidad. Se utilizan CTE's y funciones ventana.
+
+  
 
 ## ⚙️ Instalación
 
-1. clonae el repositorio:
-
-- git clone https://github.com/tu_usuario/nombre_proyecto.git
-- cd nombre_proyecto
-
-- crear entorno virtual
-  python -m venv venv
-- activar ev: En Windows: venv\Scripts\activate
-- requirements: pip install -r requirements.txt
-- configurar las variables de entorno:
-- Ejecutar: python main.py
-- Ver archivo "queries" para ver uso de queries.
+1. clonar el repositorio:
+- git clone https://github.com/avbm090/primer_proyecto_integrador.git
+- cd primer_proyecto_integrador
+2. crear entorno virtual: venv\Scripts\activate
+3. configurar las variables de entorno.
+4. Ejecutar: python main.py.
+5. Ver archivo "queries" para ver uso de queries.
